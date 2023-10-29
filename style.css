@@ -1,0 +1,43 @@
+#Titulo {
+color:white
+}
+body {
+border: gray 8px groove;
+background-color:#117864 ;
+color:white;
+padding: 50px;
+text-align:justify;
+}
+label + input {
+width: 300px;
+type-text:justify;
+}
+select:hover{
+background:#D0D3D4;
+}
+#Telefono{
+width: 100px;
+}
+#Enviar{
+font-size:14px;
+width:185px;
+background-color:Hotpink;
+transition: background-color 0.5s;
+padding:10px;
+}
+#Enviar:hover{
+background-color:MediumPurple;
+
+}
+input:focus-within {
+background:#D0D3D4;
+}
+input:hover{
+background:#D0D3D4;
+}
+label:hover{
+background:#148F77
+}
+
+
+

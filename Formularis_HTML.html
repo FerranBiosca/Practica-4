@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario </title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+<div>
+    <h1 id>Formulario</h1>
+</div>
+<form action="formulari_enviat.html">
+    <div>
+        <label for="1rnombre"> Primer Nombre:</label>
+        <input type="text" id="1rnombre" name="1rnombre"><br>
+        <label for="Apellidos">Apellidos:</label>
+        <input type="text" id="Apellidos" name="Apellidos"><br>
+        <label for="Correo">Correo electronico</label>
+        <input type="email" id="Correo" name="Correo"><br>
+        <label for="Telefono">NºTelefono</label>
+        <input type="number" id="Telefono" name="NºTelefono"><br>
+    </div>
+
+
+    <label for="Generos">Seleccione su Genero ♂♀⚧</label><br>
+    <select name="Genero" id="Generos">
+        <option value="Masculino">Hombre</option>
+        <option value="Femenino">Mujer</option>
+        <option value="NoIdentidficado">NoBinario</option>
+        <option value="Diferentes">Otros</option>
+        >
+    </select>
+    <div>
+        <p><b>Que documento tiene?</b></p>
+        <input type="radio" id="Documento de Identitad" name="Documento" value="DNI">
+        <label for="Documento de Identitad"> DNI </label><br>
+        <input type="radio" id="Número de Identidad de Extranjero" name="Documento" value="NIE">
+        <label for="Número de Identidad de Extranjero"> NIE </label><br>
+        <input type="radio" id="ID_Pasaporte" name="Documento" value="Pasaporte">
+        <label for="ID_Pasaporte">Pasaporte</label><br>
+        <p><b>Que idiomas conoce?</b></p>
+        <input type="checkbox" id="Español" name="Lengua" value="Castellano">
+        <label for="Español">Castellano </label><br>
+        <input type="checkbox" id="Ingles" name="Lengua" value="Ingles">
+        <label for="Ingles">Ingles</label><br>
+        <input type="checkbox" id="Catalan" name="Lengua" value="Catalan">
+        <label for="Catalan">Catalan</label><br>
+        <input type="checkbox" id="ID_Otros" name="Lengua" value="Otros">
+        <label for="ID_Otros">Otros</label><br>
+    </div>
+    <h3><b>Tienes algo que comentarnos ?</b></h3>
+    <textarea style="color:grey;" name="comentarios" rows="20" cols="50">Escribe aqui</textarea><br>
+    <input type="submit" id=Enviar value="Enviar formulario">
+</form>
+
+</body>
+</html>
